@@ -1,0 +1,154 @@
+h2 {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-image: none;
+}
+
+body {
+  font-family: "Relaway", sans-serif;
+  font-weight: 700;
+}
+
+/*Header*/
+
+.container {
+  width: 1177px;
+  outline: 7px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+header {
+  background-color: #ffffff;
+  /*outline: 2px dashed red;*/
+  width: 1025px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-family: "Roboto";
+  font-weight: 700px;
+
+  padding: 215px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  color: #ffffff;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+/*links to other Webstudio's pages*/
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.nav-list-item {
+  color: red;
+  font-size: 25px;
+  font-weight: 700px;
+}
+
+/*Main*/
+
+.box {
+  height: 600px;
+  /*width: 1615px;*/
+  background-color: #2f303a;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.menu {
+  padding: 40px;
+  margin: 0;
+  list-style: none;
+  background-color: #ffffff;
+
+  display: flex;
+}
+
+.feature-name {
+  outline: 2px dashed plum;
+}
+
+/*What we do*/
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 900px;
+
+  padding: 25px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  color: black;
+}
+
+.job-photo {
+  font-weight: 700px;
+
+  padding: 25px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  color: black;
+}
+
+/*footer*/
+
+.box-last {
+  height: 250px;
+  /*width: 1600px;*/
+  background-color: #2f303a;
+}
+
+.address {
+}
