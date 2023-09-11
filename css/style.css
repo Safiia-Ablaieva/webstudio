@@ -116,21 +116,34 @@ header {
 /*Contacts on main page*/
 .header-contacts {
   display: flex;
-  margin-left: auto;
 }
-
+.contacts-email:hover,
+.contacts-email:focus {
+  color: #2196f3;
+}
 .contacts-email {
-  margin-left: 344px;
-  margin-right: 50px;
+  /* margin-left: 344px;
+  margin-right: 50px;*/
   color: #757575;
+  top: 32px;
+  left: 509px;
+  right: 30px;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+  color: #2196f3;
 }
 .contacts-tel {
-  margin-right: 215;
+  /*margin-right: 215px;*/
   color: #757575;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 30px;
+  margin-right: 215px;
 }
-.header-contacts + .header-contacts {
-  margin-left: auto;
-}
+/*.header-contacts + .header-contacts {
+  margin-left: 50px;
+}*/
 
 /*Main*/
 
@@ -138,25 +151,47 @@ header {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: block;
+  /* background-color: #2f303a; */
+  /* margin-top: 30px;
+  margin-bottom: 94px; */
+  /* display: block; */
 }
 
+.hero-photo {
+  width: 1600px;
+  height: 600px;
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url("../images/працівники.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .hero-title {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  width: 700px;
+  width: 696px;
+  height: 120px;
+  top: 280px;
+  left: 452px;
+
   text-align: center;
   color: #ffffff;
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
+  /* position: absolute;
+  top: 35%; */
+  right: 27%;
+  left: 27%;
+
+  border-radius: 4px;
 }
 
 .hero-button {
-  margin: 0 auto;
+  margin: 690px;
   display: block;
   margin-top: 30px;
   padding: 10px 32px;
@@ -173,7 +208,7 @@ h3 {
   letter-spacing: 0.03em;
   color: #212121;
 }
-
+/*Our qualities*/
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -186,6 +221,13 @@ h3 {
 }
 .menu {
   display: flex;
+}
+.features-item {
+  margin-top: 10px;
+  margin-bottom: 94px;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .features-text {
   margin-left: 30px;
@@ -234,10 +276,21 @@ h3 {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.address-name {
+  padding-top: 20px;
+  color: #ffffff;
+}
+.address-contacts {
+  display: flex;
+  padding-top: 9px;
+  color: #ffffff;
+}
+
 .box {
   padding: 30px 70px;
   background-color: #ffffff;
