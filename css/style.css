@@ -26,18 +26,18 @@ li {
 body {
   font-family: "Relaway", sans-serif;
   font-weight: 700;
+  margin: 0;
 }
 
 /*Header*/
 
 header {
   background-color: #ffffff;
-  /*outline: 2px dashed red;*/
-  width: 1025px;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   /* display: flex; */
   justify-content: space-between;
 }
@@ -73,13 +73,15 @@ header {
 }
 .nav-list {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 93px;
   list-style: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -96,8 +98,7 @@ header {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #000000;
-  padding: 10px;
-  display: flex;
+  display: block;
 }
 
 .nav-item + .nav-item {
@@ -116,6 +117,7 @@ header {
 
 /*Contacts on main page*/
 .header-contacts {
+  margin-left: auto;
   display: flex;
 }
 .contacts-email:hover,
@@ -135,12 +137,9 @@ header {
   color: #2196f3;
 }
 .contacts-tel {
-  /*margin-right: 215px;*/
   color: #757575;
-  margin-top: 32px;
-  margin-bottom: 32px;
+
   margin-left: 30px;
-  margin-right: 215px;
 }
 /*.header-contacts + .header-contacts {
   margin-left: 50px;
@@ -216,6 +215,8 @@ h3 {
   display: none;
 }
 .menu {
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
 }
 .features-item {
