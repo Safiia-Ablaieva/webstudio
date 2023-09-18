@@ -154,11 +154,12 @@ header {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url("../images/працівники.jpg");
+  /* align-items: center; */
+
+  background-image: url("../images/Img\ Overlay.png"), url("../images/workers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   /* background-color: #2f303a; */
   /* margin-top: 30px;
   margin-bottom: 94px; */
@@ -284,7 +285,6 @@ h3 {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  padding-top: 94px;
 }
 
 .client-foto {
@@ -293,6 +293,10 @@ h3 {
   gap: 30px;
 }
 
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* footer */
 
 .footer {
